@@ -1,4 +1,4 @@
-name: book
+name: freelec-springboot2-webservice
 
 on:
   push:
