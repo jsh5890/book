@@ -20,7 +20,7 @@ script: "./gradlew clean build"
 before_deploy:
   - zip -r book *
   - mkdir -p deploy
-  - mv book deploy/book.zip
+  - mv book.zip deploy/book.zip
 
 deploy:
   - provider: s3
